@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Konstantinos Mokas</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pinlike.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/card.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <div class="nav">
+        <div class="name">
+            <!--In photoshop the image size is 300x500px so if we want to change it we won't have to change the css
+            <img src="images/namee.png" alt="Website name" draggable="false">-->
+            <h2 style="margin: 20px; margin-top:30px;">Konstantinos Mokas</h2>
+        </div>
+        
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <div class="wrapper">
+            <ul>
+                <li><a class="hover_btn" href="index.html">Home</a></li>
+                <li><a class="hover_btn" href="html/about.html">About</a></li>
+                <li><a class="hover_btn" href="html/projects.html">Projects</a></li>
+                <li><a class="hover_btn" href="html/music.html">Music</a></li>
+                <li><a class="hover_btn" href="html/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="big_text">
+        <h1 id="welcome_text"></h1>
+    </div>
+
+    <script>
+        var i = 0;
+        var speed = 150;
+        var text = "Welcome!";
+        window.addEventListener('load', () => {
+            
+            typeWriter()
+        });
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("welcome_text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
+</body>
+
+</html>
