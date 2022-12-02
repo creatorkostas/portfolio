@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_contact_form{
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;*/
+    font-weight: 900;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.error_message_hiden{
+    visibility: collapse;
+}
+.error_message_visible{
+    color: rgb(199, 0, 0);
+    align-self: first baseline;
+    margin: 0;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    visibility: visible;
+}
+
+.big_text{
+    font-size: 4.5rem;
+    position: relative;
+    transform: none;
+    top: 40px;
+    left: 0;
+}
+
+.contact-form{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    transform: none;
+}
+
+.container{
+    margin: 10px 20px 10px 20px;
+    width: auto;
+}
+
+.finder__outer{
+    width: auto;
+}
+
+#user_email{
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;*/
+    font-weight: 900;
+    margin-top: 20px;
+}
+#message-textarea{
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;*/
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.box{
+    box-shadow: -7px -7px 20px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0001,
+        inset 0px 0px 0px 0px #fff9,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #fff9,
+        inset 0px 0px 0px 0px #0001;
+    transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+    border-radius: 10px;
+}
+
+.box-item{
+    border-radius: 3px;
+    box-shadow: -7px -7px 20px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0001,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #fff9,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #fff9,
+        inset 0px 0px 0px 0px #0001;
+    background: #e0e5ec;
+    color: rgba(42, 52, 84, 1);
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+
+    transition: box-shadow 0.6s cubic-bezier(0.79, 0.21, 0.06, 0.81);
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 30px 0px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 350px;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+.btn:active, form-item:active {
+    box-shadow: 4px -4px 6px 0px rgba(255, 255, 255, 0.5),
+        -4px -4px 6px 0px rgba(116, 125, 136, 0.2),
+        inset -4px -4px 6px 0px rgba(255, 255, 255, 0.5),
+        inset 4px 4px 6px 0px rgba(116, 125, 136, 0.3);
+}
+
+
+@media (max-width: 600px) {
+    .error_message_visible{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .error_message_visible{
+        margin-left: 40px;
+    }
+}

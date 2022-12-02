@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Title</title>
+
+    <!--Only for the icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="../css/search_bar.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contact.css">
+
+
+</head>
+
+
+<body>
+    <!--Navbar-->
+    <div class="nav">
+        <div class="name">
+            <!--In photoshop the image size is 300x500px so if we want to change it we won't have to change the css
+            <img src="../images/name.png" alt="Website name" draggable="false">-->
+            <h2 style="margin: 20px; margin-top:30px;">Konstantinos Mokas</h2>
+        </div>
+
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <div class="wrapper">
+            <ul>
+                <li><a class="hover_btn" href="../index.html">Home</a></li>
+                <li><a class="hover_btn" href="about.html">Aboute</a></li>
+                <li><a class="hover_btn" href="projects.html">Projects</a></li>
+                <li><a class="hover_btn" href="music.html">Music</a></li>
+                <li><a class="hover_btn" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="page">
+        <h1 class="big_text">Contact</h1>
+
+    <form class="box contact-form" id="contact-form">
+
+        <div class="container" id="user_email">
+            <div class="finder">
+                <div class="finder__outer">
+                    <div class="finder__inner">
+                        <input type="text" name="user_email" id="email_user" class="finder__input" placeholder="Εmail">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="error_message_hiden" id="email_error">You must enter a valid email adress!</p>
+
+        <div class="container" id="name_text">
+            <div class="finder">
+                <div class="finder__outer">
+                    <div class="finder__inner">
+                        <input type="text" name="user_name" id="user_name" class="finder__input" placeholder="Name">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="error_message_hiden" id="name_error">The name is empty!</p>
+
+        <div class="container" id="message-textarea">
+            <div class="finder">
+                <div class="finder__outer">
+                    <div class="finder__inner">
+                        <textarea name="message" id="message" cols="10" rows="10" class="finder__input" placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="error_message_hiden" id="message_error">The message is either empty or exceeds the 100 characters!</p>
+
+        <!-- <input type="submit" value="Send message" class="submit_contact_form"> -->
+        
+        <input type="submit" value="Send message" class="finder submit_contact_form">
+    </form>
+
+    <!--Contact profiles   onclick="submit_contact()"-->
+    <div class="frame box">
+        <!--Instagram-->
+        <a href="#" class="btn box-item" draggable="false">
+            <i class="fa fa-instagram" style="color: #ff3071;"></i>
+        </a>
+        <!--linkedin-->
+        <a href="#" class="btn box-item" draggable="false">
+            <i class="fa fa-linkedin" style="color:#0e76a8;"></i>
+        </a>
+        <!-- email-->
+        <a href="#" class="btn box-item" draggable="false">
+            <i class="fa fa-envelope" style="color:#65d838;"></i>
+        </a>
+    </div>
+    </div>
+    
+    <script src="../js/contact.js"></script>
+</body>
+
+</html>

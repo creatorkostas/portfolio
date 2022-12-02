@@ -1,0 +1,30 @@
+{
+  "project":[
+    {
+      "image":"../images/logo.png",
+      "title":"Music Downloader",
+      "some_words":"Somethig"
+    },
+    {
+      "image":"../images/logo.png",
+      "title":"Encryption Decryption",
+      "some_words":"Somethig"
+    },
+    {
+      "image":"../images/logo.png",
+      "title":"Movie Manager",
+      "some_words":"Somethig"
+    },
+    {
+      "image":"../images/logo.png",
+      "title":"AI personal assistant (M.I.A)",
+      "some_words":"Somethig"
+    },
+    {
+      "image":"../images/logo.png",
+      "title":"Movie data scraping Api ",
+      "some_words":"Somethig"
+    }
+  ] 
+  
+}

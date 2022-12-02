@@ -1,0 +1,20 @@
+.big_text {
+    font-size: 50px;
+    top: 10%;
+    transform: translate(-50%, 0%);
+}
+
+
+.card{
+    width: 80vw;
+}
+
+.finder__outer p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.finder__outer {
+    display: inherit;
+    /*display: contents;*/
+}
