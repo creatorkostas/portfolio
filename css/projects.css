@@ -1,0 +1,8 @@
+.code{
+    background: rgb(110, 110, 110);
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

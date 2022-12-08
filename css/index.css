@@ -1,0 +1,30 @@
+.big_text{
+    margin: 0px;
+    width: 100vw;
+    height: 90vh;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    text-align: center;
+    position: relative;
+    
+}
+
+#welcome_text{
+    margin: 0px;
+    top: 25%;
+    position: relative;
+}
+
+.card60{
+    width: 59vw;
+}
+
+.card40{
+    width: 39vw;
+}
+
+.welcome_page{
+    display: flex;
+    gap: 10px;
+}

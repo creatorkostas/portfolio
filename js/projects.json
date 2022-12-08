@@ -1,30 +1,30 @@
 {
   "project":[
     {
-      "image":"../images/logo.png",
-      "title":"Music Downloader",
-      "some_words":"Somethig"
+      "image":"../images/M.I.A.-logo.png",
+      "title":"AI personal assistant (M.I.A)",
+      "some_words":"M.I.A. is an AI assistant for day to day life use. It is written in python currently is in verios Alpha v0.0.1a but it already has many features and many more are comming in the feture.<br>The project is open source and you can find it in <a href=\"https://github.com/creatorkostas/M.I.A\">Github</a> along side whith instractions for use."
     },
     {
-      "image":"../images/logo.png",
+      "image":"../images/MusicDownloader.png",
+      "title":"Music Downloader",
+      "some_words":"Music Downloader is a simple python library which allow you to download music easy eather a single song from a link or more than one from a file.<br>The project is open source and you can find it in <a href=\"https://github.com/creatorkostas/MusicDownloader\">Github</a>"
+    },
+    {
+      "image":"../images/python-api.png",
+      "title":"Movies/Series data scraping Api ",
+      "some_words":"This api can be found <a href=\"https://movie-scraping-api.vercel.app/\">here</a> and you can use the <code class=\"code\">/scrape_id/{name}</code> to get a list of IMDb ids based on the name or the <code class=\"code\">/scrape_id_first/{name}</code> to get only the first id from the results, also there is the <code class=\"code\">/scrape_info/{IMDb id}</code> to get the information for this id or you can use the <code class=\"code\">/scrape_all/{name}</code> to get the id and the info in a single request."
+    },
+    {
+      "image":"../images/EncryptionDecryption.png",
       "title":"Encryption Decryption",
-      "some_words":"Somethig"
+      "some_words":"Encryption Decryption is a team project with <a href=\"https://github.com/KDesp73\">@KDesp73</a>, <a href=\"https://github.com/congiants\">@congiants</a> and <a href=\"https://github.com/ThanasisGeorg\">@ThanasisGeorg</a>  written in c which can encrypt and decrypt files and text.<br>The project is open source and you can find it in <a href=\"https://github.com/KDesp73/Encryption-Decryption\">Github</a>"
     },
     {
       "image":"../images/logo.png",
       "title":"Movie Manager",
-      "some_words":"Somethig"
-    },
-    {
-      "image":"../images/logo.png",
-      "title":"AI personal assistant (M.I.A)",
-      "some_words":"Somethig"
-    },
-    {
-      "image":"../images/logo.png",
-      "title":"Movie data scraping Api ",
-      "some_words":"Somethig"
+      "some_words":"Movie Manager is a team project with <a href=\"https://github.com/KDesp73\">@KDesp73</a> and <a href=\"https://github.com/ThanasisGeorg\">@ThanasisGeorg</a> written in java which organize your movies and series in one place."
     }
-  ] 
+  ]
   
 }
