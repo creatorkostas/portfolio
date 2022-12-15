@@ -10,6 +10,23 @@
     
 }
 
+.pin-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    width: 100vw;
+}
+
+/* 
+row start / column start / row end / column end 
+*/
+.pin-item1 { grid-area: 1 / 1 / 4 / 1; }
+.pin-item2 { grid-area: 3 / 2 / 7 / 2; }
+.pin-item3 { grid-area: 5 / 1 / 9 / 1; }
+
 #welcome_text{
     margin: 0px;
     top: 25%;
@@ -18,6 +35,7 @@
 
 .card50{
     width: 49vw;
+    padding: 8px;
 }
 
 .card40{
