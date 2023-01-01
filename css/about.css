@@ -25,3 +25,8 @@
     display: inherit;
     /*display: contents;*/
 }
+
+footer{
+    margin-top: 120px;
+    padding-bottom: 0px;
+}

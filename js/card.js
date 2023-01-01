@@ -1,4 +1,4 @@
-function create_card(title,image_path,some_words){
+function create_card(title,image_path,some_words,element_to_append){
     
     //console.log(obg);
     var card = `
@@ -22,7 +22,7 @@ function create_card(title,image_path,some_words){
     elem.className = "card";
     elem.innerHTML = card;
 
-    document.body.appendChild(elem);
+    element_to_append.appendChild(elem);
 }
 
 /*

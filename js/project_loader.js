@@ -1,3 +1,4 @@
+
 window.addEventListener('load', () => {
     fetch('../js/projects.json')
     .then((response) => response.json())
@@ -7,7 +8,7 @@ window.addEventListener('load', () => {
             image_path = myJson[i].image;
             title = myJson[i].title;
             some_words = myJson[i].some_words;
-            create_card(title,image_path,some_words);
+            create_card(title,image_path,some_words,document.getElementById("projects"));
         }
     });
 });

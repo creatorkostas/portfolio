@@ -6,3 +6,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.big_text{
+    position: relative;
+    top: 3%;
+    font-size: 2.5vw;
+}
+
+footer{top: 90%;}

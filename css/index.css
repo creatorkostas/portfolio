@@ -24,8 +24,9 @@
 row start / column start / row end / column end 
 */
 .pin-item1 { grid-area: 1 / 1 / 4 / 1; }
-.pin-item2 { grid-area: 3 / 2 / 7 / 2; }
-.pin-item3 { grid-area: 5 / 1 / 9 / 1; }
+.pin-item2 { grid-area: 2 / 2 / 7 / 2; }
+.pin-item3 { grid-area: 4 / 1 / 7 / 1; }
+.pin-item4 { grid-area: 5 / 2 / 7 / 2; }
 
 #welcome_text{
     margin: 0px;
